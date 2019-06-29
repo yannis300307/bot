@@ -12,7 +12,7 @@ bot.on('ready', function () {
 bot.on('message', function (message) {
 
 	if (message.content === '>help') {
-		let auteur = message.member
+		let auteur = message.author
 		let help = new Discord.RichEmbed()
 				.setColor("#2B00FF")
 				.addField("Les commandes : \n\n >server \n >help \n >invit")
