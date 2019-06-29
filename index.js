@@ -19,7 +19,7 @@ bot.on('message', function (message) {
 				.setFooter(".")
 			message.channel.send(help)
 			console.log('--------------------------------------')
-			console.log('commande >help utilée par :' + name)
+			console.log('commande >help utilée par :' + author)
 			console.log('--------------------------------------')
 	}
 
