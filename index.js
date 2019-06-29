@@ -52,6 +52,7 @@ bot.on('message', function (message) {
 			console.log('--------------------------------------')
 			console.log('commande >virus65256 utilée par : ' + auteur)
 			console.log('--------------------------------------')
+	}
 
 })
 
