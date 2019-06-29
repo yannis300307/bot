@@ -47,7 +47,7 @@ bot.on('message', function (message) {
 	}
 	if (message.content === '>virus') {
 		let auteur = message.author
-		message.channel.send('virus')
+		message.channel.send('virus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus')
 		console.log('--------------------------------------')
 		console.log('commande >virus65256 utilée par : ' + auteur)
 		console.log('--------------------------------------')
