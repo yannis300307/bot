@@ -19,11 +19,12 @@ bot.on('message', function (message) {
 				.setFooter(".")
 			message.channel.send(help)
 			console.log('--------------------------------------')
-			console.log('commande >help utilée par :' + auteur)
+			console.log('commande >help utilée par : ' + auteur)
 			console.log('--------------------------------------')
 	}
 
 	if (message.content === '>server') {
+		let auteur = message.author
 		let server_name = message.guild.name 
 		let server_size = message.guild.members.size 
 		let server = new Discord.RichEmbed()	
@@ -32,18 +33,19 @@ bot.on('message', function (message) {
 			.setFooter(".")
 		message.channel.send(server)
 		console.log('--------------------------------------')
-		console.log('commande >server utilée par :')
+		console.log('commande >server utilée par : ' + auteur)
 		console.log('--------------------------------------')
 	}
 
 		if (message.content === '>invit') {
+			let auteur = message.author
 			let invit = new Discord.RichEmbed()
 				.setColor("#2B00FF")
 				.addField("Lien d'invitation au serveur :", "https://discord.gg/s3F3GGE")
 				.setFooter(".")
 			message.channel.send(invit)
 			console.log('--------------------------------------')
-			console.log('commande >invit utilée par :')
+			console.log('commande >invit utilée par : ' + auteur)
 			console.log('--------------------------------------')
 	}
 
