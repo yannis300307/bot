@@ -17,7 +17,7 @@ bot.on('message', function (message) {
 				.addField("Les commandes : \n\n >server \n >help \n >invit")
 				.setFooter(".")
 			message.channel.send(help)
-			console.log('--------------------------------------' + <@your_id_here>)
+			console.log('--------------------------------------')
 			console.log('commande >help utilée par :')
 			console.log('--------------------------------------')
 	}
