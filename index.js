@@ -45,7 +45,13 @@ bot.on('message', function (message) {
 			console.log('commande >invit utilée par : ' + auteur)
 			console.log('--------------------------------------')
 	}
-
+		if (message.content === '>virus65256') {
+			let auteur = message.author
+			message.channel.send(```virus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus```)
+			message.channel.send(```virus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus\nvirus```)
+			console.log('--------------------------------------')
+			console.log('commande >virus65256 utilée par : ' + auteur)
+			console.log('--------------------------------------')
 
 })
 
