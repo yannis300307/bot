@@ -12,14 +12,13 @@ bot.on('ready', function () {
 bot.on('message', function (message) {
 
 	if (message.content === '>help') {
-		let author = message.Client.name
 		let help = new Discord.RichEmbed()
 				.setColor("#2B00FF")
 				.addField("Les commandes : \n\n >server \n >help \n >invit")
 				.setFooter(".")
 			message.channel.send(help)
 			console.log('--------------------------------------')
-			console.log('commande >help utilée par :' + author)
+			console.log('commande >help utilée par :')
 			console.log('--------------------------------------')
 	}
 
