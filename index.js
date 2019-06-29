@@ -35,22 +35,22 @@ bot.on('message', function (message) {
 		console.log('--------------------------------------')
 	}
 
-		if (message.content === '>invit') {
-			let auteur = message.author
-			let invit = new Discord.RichEmbed()
-				.setColor("#2B00FF")
-				.addField("Lien d'invitation au serveur :", "https://discord.gg/s3F3GGE")
-			message.channel.send(invit)
-			console.log('--------------------------------------')
-			console.log('commande >invit utilée par : ' + auteur)
-			console.log('--------------------------------------')
+	if (message.content === '>invit') {
+		let auteur = message.author
+		let invit = new Discord.RichEmbed()
+			.setColor("#2B00FF")
+			.addField("Lien d'invitation au serveur :", "https://discord.gg/s3F3GGE")
+		message.channel.send(invit)
+		console.log('--------------------------------------')
+		console.log('commande >invit utilée par : ' + auteur)
+		console.log('--------------------------------------')
 	}
-		if (message.content === '>virus') {
-			let auteur = message.author
-			message.channel.send('virus')
-			console.log('--------------------------------------')
-			console.log('commande >virus65256 utilée par : ' + auteur)
-			console.log('--------------------------------------')
+	if (message.content === '>virus') {
+		let auteur = message.author
+		message.channel.send('virus')
+		console.log('--------------------------------------')
+		console.log('commande >virus65256 utilée par : ' + auteur)
+		console.log('--------------------------------------')
 	}
 
 })
